@@ -1,0 +1,14 @@
+{
+  "name": "cloudflare-b2-proxy",
+  "main": "src/index.ts",
+  "compatibility_date": "2022-02-24",
+  "account_id": "",
+  "workers_dev": true,
+  "route": "",
+  "zone_id": "",
+  "vars": {
+    "AWS_ACCESS_KEY_ID": "<your b2 application key id>",
+    "AWS_S3_ENDPOINT": "s3.us-east-005.backblazeb2.com",
+    // "WEBHOOK_URL": "<e.g. https://api.example.com/webhook/1 >"
+  }
+}
